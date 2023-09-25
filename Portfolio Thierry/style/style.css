@@ -10,7 +10,7 @@ body {
         height: 100vh;
         box-sizing: border-box;
         color: antiquewhite;
-        background: linear-gradient(to bottom, #0a4850, #066f8f, #068a94);
+        background: linear-gradient(to bottom, #271401, #813b0c, #be770b);
            /* Define o tamanho de fundo para cobrir toda a área disponível */
     background-size: cover;
 
@@ -30,7 +30,7 @@ body {
 
 
 .titulo-destaque {
-        color: #000000;}
+        color: #ffae00;}
         
 
 .conteudo {
@@ -104,6 +104,22 @@ body {
 
         text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
     }
+
+
+    
+/* Estilos para elementos com a classe .apresentacao-conteudo-paragrafo */
+.apresentacao-conteudo-texto {
+    /* Define o tamanho da fonte como 24px */
+    font-size: 17px;
+
+    /* Define a família de fontes como 'Montserrat' com fallback para sans-serif */
+    font-family: 'Krona One', sans-serif;
+
+    /* Alinha o texto justificado */
+    text-align: justify;
+
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
     
     
     /* Iniciando estilização da ancora1 (botao1) */
@@ -132,7 +148,7 @@ font-size: 24px;
     }
 
 .botao {
-        background-color: rgb(1, 181, 252);
+        background-color: rgb(252, 93, 1);
         color: rgb(255, 255, 255);
         width: 200px;
         text-align: center;
@@ -141,7 +157,7 @@ font-size: 24px;
         padding: 15px 0;
         text-decoration: none;
         font-family: 'Montserrat', sans-serif;
-        border: 3px solid #000000;
+        border: 3px solid #ffffff;
         cursor: pointer;
         margin-left: 10px;
         margin-right: 10px;
@@ -162,7 +178,7 @@ font-size: 24px;
         left: 0; 
         width: 0;
         height: 100%;
-        background: linear-gradient(45deg, transparent, #15415a);
+        background: linear-gradient(45deg, transparent, #f3d965);
         transition: 0.2s;
     }
     
@@ -185,10 +201,10 @@ font-size: 24px;
         height: 480px;
         overflow: hidden;
         border-radius: 10%;
-        border: 5px solid #07d9f5fb;
+        border: 5px solid #e75c00;
         padding: 12px;
         display: inline-block;
-        box-shadow: 15px 10px 15px 15px rgba(52, 208, 247, 0.5);
+        box-shadow: 15px 10px 15px 15px rgba(255, 123, 0, 0.5);
         filter: brightness(0.8);
         order:1;
         
@@ -196,7 +212,7 @@ font-size: 24px;
 
 .rodape{
 color: white;
-background-color: #030a2b;
+background-color: #f18100;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -208,7 +224,13 @@ padding: 20px;
 }
 
 .rodape a:hover{
-    color: #148df0;
+    color: #000000;
+}
+
+.rodapelink { 
+
+    color: #042433;
+
 }
 
 .cabecalho {
@@ -224,6 +246,6 @@ padding: 20px;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600;
-    color: white;
+    color: rgb(255, 187, 0);
     text-decoration: none;
 }
